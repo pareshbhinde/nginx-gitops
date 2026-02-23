@@ -15,5 +15,6 @@ spec:
       containers:
         - name: nginx
           image: pareshku123/nginx-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
